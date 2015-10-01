@@ -36,6 +36,9 @@ struct List
 };
 
 
+void deleteFirst(List &, address &);
+void deleteLast(List &, address &);
+void deleteAfter(List &, address &, address &);
 
 address findElm(List, infotype );
 int countElm(List L);
